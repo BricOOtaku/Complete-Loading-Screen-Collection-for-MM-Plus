@@ -84,9 +84,19 @@ void random_bg()
 			rnd = 807 + rand() % 196;
 			break;
 		}
+		case 8: //SteamCards (1003-1014)
+		{
+			rnd = 1003 + rand() % 12;
+			break;
+		}
+		case 9: //MikuFlick1&2 (1015-1017)
+		{
+			rnd = 1015 + rand() % 3;
+			break;
+		}
 		default: //All
 		{
-			rnd = rand() % 1003;
+			rnd = rand() % 1018;
 			break;
 		}
 	}
